@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+.strongF {
+  font-size: 2vw
+ }
+
+
+.prevF {
+  color: white;
+  font-size: 2.2vw;
+  float: left;
+}
+/*.erea{
+ display: grid;
+ grid-template-columns: 52% 45%;
+ grid-gap: 1rem;
+ padding: 1rem;
+ box-sizing: border-box;
+}
+*/
+#Capa_3{
+  width: 2vw;
+  margin-top: 0.5vw
+}
+
+.containerF{
+  background: silver ;
+}
+
+.eereaF {
+  background: silver;
+}
+
+.area-infoF {
+  display: flex;
+  margin: 0 auto;
+  width: 79vh;
+  background: white;
+  border: 1rem solid silver;
+  padding: 3rem;
+}
+.area-info-wrapperF {
+  width: 100%
+}
+.area-contactF {
+  margin: 3% auto;
+  width: 80vw ;
+  height: auto;
+  background: white;
+  padding: 0rem 0rem;
+  box-sizing: border-box;
+
+}
+@media(max-width: 1200px){
+  .area-contactF {
+    margin: 3% auto;
+    width: 80vw ;
+    height: 83vh;
+    background: white;
+    padding: 0rem 0rem;
+    box-sizing: border-box;
+
+  }
+}
+.area-titleF {
+  text-align: center;
+  font-family: 'STIX Two Text', serif;
+  font-size: 4vw;
+  color: white;
+/*text-shadow:
+   -0.1rem -0.1rem 0 #00c7e0,
+    0.1rem -0.1rem 0 #00c7e0,
+    -0.1rem 0.1rem 0 #00c7e0,
+     0.1rem 0.1rem 0 #00c7e0;*/
+}
+
+
+.area-headerF {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 2.5vw;
+  color: gold;
+
+}
+
+.area-descriptionF {
+  text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5vw;
+
+}
+.bottomBoxF {
+  height: 15vh;
+
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+@media (max-width:800px){
+  .bottomBoxF {
+    height: 8vh;
+    margin-top: 0px;
+  }
+}

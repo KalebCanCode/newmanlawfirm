@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+
+
+.kontent{
+  margin: 0;
+  text-align: center;
+  /*background: rgba(255,200,255, 0.4);*/
+
+}
+
+.content-h1 {
+  font-family: 'STIX Two Text', serif;
+  font-size: 3rem;
+  margin-top: 0rem;
+}
+
+.content-paragraph {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+.content-anchor{
+  color: hsl(188, 80%, 55%) ;
+}
+
+
+.other-cont{
+  width: flex;
+  display: inline-block;
+  text-align: justify;
+  line-height: 2.5rem;
+
+}
+
+.other-cont-label {
+  font-size: 1.4rem;
+  font-family: 'Share Tech', sans-serif;
+  color: black;
+}
+
+.att-label {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 1.6rem;
+}
+
+.contaxx-container {
+  margin: 3% auto;
+  width: 80vw;
+  background:black ;
+  height: 85vh
+}
+
+.bottomBoxx {
+  height: 15vh;
+  background: black;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+
+@media (max-width:800px){
+.bottomBoxx {
+    height: 8vh;
+    margin-top: 0px;
+  }
+}

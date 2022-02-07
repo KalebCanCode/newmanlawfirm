@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.image1{
+  margin-top: 0.67%;
+  height: 93.7vh;
+  width: 100%;
+}
+
+
+
+.des-title {
+  font-size: 5vw;
+  font-family: 'STIX Two Text', serif;
+  text-align: center;
+}
+
+.des {
+  margin:auto;
+  width: 80%;
+  font-size: 2vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  line-height: 1.6
+}
+
+.biooos{
+  margin-bottom: 50rem;
+  height: 30vw;
+  width: 70vw;
+  margin: 6% auto;
+}
+
+.biooos2{
+  margin-bottom: 50rem;
+  height: 30vw;
+  width: 70vw;
+  margin: 5% auto;
+}
+
+
+.contax-containerP {
+  width: 80vw;
+  height: 100vh;
+  margin: 10% auto;
+  background-color: silver;
+
+}
+
+.bottomBoxxP {
+  height: 15vh;
+  background: silver;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+.gallery-page {
+  background: #FFE4C4;
+  height: 100%;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'STIX Two Text', serif;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.gallery-description {
+  margin: auto;
+  width: 55%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'STIX Two Text', serif;
+  line-height: 2
+}
+
+
+.gallery-carousel {
+  margin: 1rem auto;
+  width: 78%;
+  height: 82vh;
+  padding: 3rem;
+  background: hsl(33, 100%, 94%);
+  border: 1px solid black;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contax-containerG {
+  width: 80vw;
+  height: 100vh;
+  margin: 10% auto;
+  background-color: white;
+
+}
+
+.bottomBoxxG {
+  height: 15vh;
+  background: white;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+@media (max-width:800px){
+.bottomBoxxG {
+    height: 8vh;
+    margin-top: 0px;
+  }
+}

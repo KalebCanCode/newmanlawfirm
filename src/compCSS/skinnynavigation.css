@@ -1,0 +1,147 @@
+
+:root {
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 30px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 50ms;
+}
+
+
+.bar-titleMainS{
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+  font-family: 'STIX Two Text', serif;
+  /*font-family: 'Oswald', sans-serif;*/
+  /*font-family: 'Zen Tokyo Zoo', cursive;*/
+  color: rgb(0,199,224);
+  font-size: 1.8vw;
+  vertical-align: middle;
+
+}
+.bar-titleNS {
+  color: gold;
+  font-family: cursive;
+  font-size: 2vw;
+  text-shadow: -1.3px -1.3px rgb(0,199,224);
+  vertical-align: middle;
+
+
+}
+
+.barS {
+  height: 5%;
+  width: 100%;
+  background-color: white;
+  /*background-image: linear-gradient(to bottom right, darkgrey 65% , white);*/
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+.barS-wrapper{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height:m 100%
+}
+
+.bar-title-containerS {
+  display: inline-block;
+  width: 100%;
+
+}
+/* Flexible grow, takes up all space of the parent, children start at the end */
+.bar-navS {
+
+  width: 100%;
+  display: flex;
+  float:right;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0%;
+
+  padding: 0rem;
+}
+.nav-itemS {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
+  margin-top: 0px;
+  padding: 0 0;
+  font-family: 'Encode Sans SC', sans-serif;
+  color: silver;
+  font-size: 1.1vw
+
+}
+
+
+.nav-itemS:hover {
+  background-color: rgb(0,199,224);
+  color: white;
+}
+/*
+.icon-button {
+  --button-size: calc(var(-nav-size)*0.4);
+  width: calc(var(--button-size)*2);
+  height: var(-button-size);
+  padding: 4px 10px;
+  margin: 2px 25px;
+  align-items: center;
+  justify-content: center;
+  transition: filter 100ms;
+  white-space: nowrap;
+}
+
+.icon-button:hover {
+  filter: brightness(1.9)
+}
+
+
+
+.icon-button svg{
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px
+}
+
+.dropdown {
+  position: absolute;
+  margin: 198px 0px 0px 500px;
+  width: 130px;
+  transform: translateX(-45%);
+  background-color: rgba(230, 255, 255, 0.35);
+  border: var(--border);
+  padding: 1rem;
+  border-radius: 15%;
+}
+
+.menu-item{
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transistion: background var(--speed);
+  font-size: 1rem;
+  color: yellow;
+  border-style: outset;
+  border-color: grey;
+}
+.menu-item:hover {
+  background-color: #525357;
+}
+
+.dropItem {
+  margin-left: 50px
+}
+
+.icon-right {
+  margin-left: auto;
+}
+*/

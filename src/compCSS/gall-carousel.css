@@ -1,0 +1,17 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+
+.gallery-image {
+  margin: 0 auto;
+  width: 80%;
+  height: 80vh;
+  object-fit:scale-down;
+  position: relative;
+  margin-left: 10%;
+  border-radius: 90%
+
+
+}

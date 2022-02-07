@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+
+.card {
+  box-sizing: border-box;
+  height: 45vh;
+  width: 89%;
+  margin: auto;
+  padding: 1rem 1rem;
+  background: hsl(10%, 0%, 98%);
+  border-style: inset;
+  border-color: none;
+  border-radius: 9%;
+  box-shadow: 0.3rem 0.3rem grey;
+  transition: all 0.3 ease;
+
+}
+
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .card-icon {
+  background-position: -40.5vw;
+}
+
+@media (max-width: 700px){
+  .card:hover .card-icon {
+    background-position: -30.5vw;
+  }
+}
+
+/*.card:hover .card-button {
+  background: #00c7e0;
+}
+*/
+
+svg {
+  margin: 0 auto;
+  width: 5vw;
+
+}
+
+#phone2{
+  margin: 0 auto;
+  margin-top: 0%;
+  width: 5vw;
+  height: 8vh
+}
+
+@media (max-width: 900px){
+  #phone2{
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 5vw;
+    height: 7vh
+  }
+}
+@media (max-width: 700px){
+  #phone2{
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 5vw;
+    height: 5vh
+  }
+}
+.card-icon {
+  margin: 0rem auto;
+  border-style: solid;
+  border-radius: 50%;
+  width: 6vw;
+  height: 10vmin;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0rem;
+  background: linear-gradient(90deg, white 38%, #00c7e0);
+  background-position: 0rem;
+  background-size: 55vw;
+  transition: all 0.5s ease;
+}
+
+
+.card-title {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 2.7vw;
+  text-align: center;
+  margin: 0.3rem 0px;
+}
+
+.card-description {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2vw;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.card-button {
+  display: inline-block;
+  float: right;
+  width: 8vw;
+  height: 4vh;
+  background-color: #00c7e0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.13vw;
+  color: white;
+  border-style: outset;
+  border-radius: 9%;
+  margin-top: 0.5rem;
+  background: #00c7e0;
+  cursor: pointer;
+ }
+
+
+
+ @media (max-width: 900px){
+   .card {
+     box-sizing: border-box;
+     height: 33vh;
+     width: 89%;
+     margin: auto;
+     padding: 1rem 1rem;
+     background: hsl(10%, 0%, 98%);
+     border-style: inset;
+     border-color: none;
+     border-radius: 9%;
+     box-shadow: 0.3rem 0.3rem grey;
+     transition: all 0.3 ease;
+
+   }
+   .card-button {
+     display: inline-block;
+     float: right;
+     width: 11vw;
+     height: 3vh;
+     background-color: #00c7e0;
+     font-family: 'Oswald', sans-serif;
+     font-size: 1.4vw;
+     color: white;
+     border-style: outset;
+     border-radius: 9%;
+     margin-top: 0.5rem;
+     background: #00c7e0;
+     cursor: pointer;
+    }
+
+ }

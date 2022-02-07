@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,700&display=swap');
+
+
+
+.profile-titleK {
+  font-family: 'STIX Two Text', serif;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.profile-imageK {
+  width: 60vw;
+  height: 70vh;
+  margin-left: 18.9%;
+  object-fit: contain
+
+}
+.profile-descriptionK {
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 60vw;
+  margin: 3% auto;
+  font-size: 1.7vw;
+  line-height: 2
+
+}
+.profile-descriptionKBIG {
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 45vw;
+  margin: 3% auto;
+  font-size: 1.7vw;
+  line-height: 2
+}
+.goldie{
+  font-weight: bolder;
+  color: gold
+}
+
+.bottomBoxGr {
+  height: 15vh;
+  background: silver;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+@media(max-width: 800px){
+  .bottomBoxGr {
+    height: 8vh;
+    background: silver;
+    margin-top: 0px;
+  }
+}
