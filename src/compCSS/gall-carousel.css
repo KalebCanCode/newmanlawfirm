@@ -7,11 +7,27 @@
 .gallery-image {
   margin: 0 auto;
   width: 80%;
-  height: 80vh;
+  height: 75vh;
   object-fit:scale-down;
   position: relative;
   margin-left: 10%;
   border-radius: 90%
 
+
+}
+
+@media(max-width: 800px){
+  .gallery-image {
+    margin: 0 auto;
+    width: 80%;
+    height: 65vh;
+    object-fit:scale-down;
+    position: relative;
+    margin-left: 10%;
+    border-radius: 90%;
+    margin-bottom: 0vh
+
+
+  }
 
 }

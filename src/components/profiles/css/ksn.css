@@ -4,13 +4,13 @@
 
 .profile-titleK {
   font-family: 'STIX Two Text', serif;
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   text-align: center;
 }
 
 .profile-imageK {
   width: 60vw;
-  height: 70vh;
+  height: 60vh;
   margin-left: 18.9%;
   object-fit: contain
 
@@ -48,5 +48,33 @@
     height: 8vh;
     background: silver;
     margin-top: 0px;
+  }
+
+  .profile-imageK {
+    width: 60vw;
+    height: 50vh;
+    margin-left: 18.9%;
+    object-fit: contain
+
+  }
+
+  .profile-descriptionK {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 85vw;
+
+    font-size: 3.7vw;
+    line-height: 2;
+    margin-bottom: 5vh;
+
+  }
+  .profile-descriptionKBIG {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 85vw;
+    margin: 3% auto;
+    font-size: 2.7vw;
+    line-height: 2;
+    margin-bottom: 5vh;
   }
 }

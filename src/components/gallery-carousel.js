@@ -27,7 +27,7 @@ const GalleryCarousel = () => {
      infinite
      disableButtonsControls
      autoPlayInterval="5000">
-  <img src={image1} className="gallery-image" />
+
   <img src={image2} className="gallery-image" />
   <img src={image3} className="gallery-image" />
   <img src={image4} className="gallery-image" />
@@ -38,6 +38,7 @@ const GalleryCarousel = () => {
   <img src={image9} className="gallery-image" />
   <img src={image10} className="gallery-image" />
   <img src={image11} className="gallery-image" />
+  <img src={image1} className="gallery-image" />
   <img src={image12} className="gallery-image" />
   <img src={image13} className="gallery-image" />
   <img src={image14} className="gallery-image" />

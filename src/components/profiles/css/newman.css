@@ -18,9 +18,9 @@
 }
 
 .profile-image {
-  width: 55vw;
+  width: 43vw;
   height: auto;
-  margin-left: 21.9%
+  margin-left: 27.6%
 
 }
 
@@ -55,5 +55,27 @@
     height: 8vh;
     background: silver;
     margin-top: 15%;
+  }
+
+  .profile-image {
+    width: 63vw;
+    height: auto;
+    margin-left: 17.6%
+
+  }
+
+  #img2{
+    margin-top: 7%;
+    margin-bottom: 10%;
+    width: 40vw;
+    margin-left: 30%
+  }
+
+  .profile-description {
+      font-family: 'Open Sans Condensed', sans-serif;
+      width: 70vw;
+      margin: 3% auto;
+      font-size: 3.4vw;
+      line-height: 1.7
   }
 }

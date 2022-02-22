@@ -154,4 +154,26 @@ a {
     background: hsl(188, 69%, 49%);
     margin-top: 0px;
   }
+
+
+  .contactForm-container {
+    margin: 3% auto;
+    width: 80%;
+    background:hsl(188, 80%, 55%) ;
+    height: 58vh
+
+  }
+  .secondBox{
+    margin: 7vw auto;
+    padding: 0;
+    height: 35vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-gap: 0.7rem;
+    justify-content:center;
+    align-items: center;
+
+
+  }
 }

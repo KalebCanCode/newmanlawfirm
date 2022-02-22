@@ -9,7 +9,7 @@
 
 .gallery-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-family: 'STIX Two Text', serif;
   margin-bottom: 0rem;
   margin-top: 1rem;
@@ -27,9 +27,9 @@
 
 .gallery-carousel {
   margin: 1rem auto;
-  width: 78%;
-  height: 82vh;
-  padding: 3rem;
+  width: 78vw;
+  height: 80vh;
+  padding: 2vw;
   background: hsl(33, 100%, 94%);
   border: 1px solid black;
   border-radius: 10%;
@@ -38,7 +38,7 @@
 }
 
 .contax-containerG {
-  width: 80vw;
+  width: 75vw;
   height: 100vh;
   margin: 10% auto;
   background-color: white;
@@ -57,4 +57,43 @@
     height: 8vh;
     margin-top: 0px;
   }
+
+  .gallery-title {
+    text-align: center;
+    font-size: 9vw;
+    font-family: 'STIX Two Text', serif;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+
+  .gallery-description {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'STIX Two Text', serif;
+    line-height: 2
+  }
+
+
+  .gallery-carousel {
+    margin: 6vh auto;
+    width: 78%;
+    height: 65vh;
+    padding: 4vw;
+    background: hsl(33, 100%, 94%);
+    border: 1px solid black;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contax-containerG {
+    width: 80vw;
+    height: 70vh;
+    margin: 15% auto;
+    background-color: white;
+
+  }
+
 }

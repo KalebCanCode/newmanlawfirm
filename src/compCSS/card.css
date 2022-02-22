@@ -34,6 +34,9 @@
   .card:hover .card-icon {
     background-position: -30.5vw;
   }
+
+
+
 }
 
 /*.card:hover .card-button {
@@ -58,18 +61,28 @@ svg {
   #phone2{
     margin: 0 auto;
     margin-top: 7%;
-    width: 5vw;
-    height: 7vh
+    width: 6vw;
+    height: 8vh
+  }
+
+  .card-icon {
+    margin: 0rem auto;
+    border-style: solid;
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vh;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0rem;
+    background: linear-gradient(90deg, white 38%, #00c7e0);
+    background-position: 0rem;
+    background-size: 55vw;
+    transition: all 0.5s ease;
   }
 }
-@media (max-width: 700px){
-  #phone2{
-    margin: 0 auto;
-    margin-top: 7%;
-    width: 5vw;
-    height: 5vh
-  }
-}
+
 .card-icon {
   margin: 0rem auto;
   border-style: solid;
@@ -123,7 +136,7 @@ svg {
  @media (max-width: 900px){
    .card {
      box-sizing: border-box;
-     height: 33vh;
+     height: 38vh;
      width: 89%;
      margin: auto;
      padding: 1rem 1rem;
@@ -151,4 +164,57 @@ svg {
      cursor: pointer;
     }
 
+ }
+
+ @media (max-width: 750px){
+   .card {
+     box-sizing: border-box;
+     height: 35vh;
+     width: 89%;
+     margin: auto;
+     padding: 1rem 1rem;
+     background: hsl(10%, 0%, 98%);
+     border-style: inset;
+     border-color: none;
+     border-radius: 9%;
+     box-shadow: 0.3rem 0.3rem grey;
+     transition: all 0.3 ease;
+
+   }
+ }
+
+
+ @media (max-width: 600px){
+   #phone2{
+     margin: 0 auto;
+     margin-top: 7%;
+     width: 5vw;
+     height: 5vh
+   }
+
+   .card {
+     box-sizing: border-box;
+     height: 28vh;
+     width: 89%;
+     margin: auto;
+     padding: 1rem 1rem;
+     background: hsl(10%, 0%, 98%);
+     border-style: inset;
+     border-color: none;
+     border-radius: 9%;
+     box-shadow: 0.3rem 0.3rem grey;
+     transition: all 0.3 ease;
+
+   }
+
+   .card-description {
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 2vw;
+     margin-bottom: 0px;
+     margin-top: 0px;
+   }
+
+   .card-icon {
+    display: none;
+   }
  }
