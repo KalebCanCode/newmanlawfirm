@@ -49,9 +49,9 @@ interest in mind, at all times. If you are interested in learning more about how
         </div>
 
         <div className="ioneBox">
-        <a href="/about/marvin-zanders"><img className="imgtwo"src={Lawyer2Img}alt=""/></a>
+        <img className="imgtwo"src={Lawyer2Img}alt=""/>
         <div className="picName">
-        <a href="/about/marvin-zanders"><h1>Marvin Zanders</h1></a>
+        <h1>Marvin Zanders</h1>
         </div>
         </div>
         <div className="ioneBox">
