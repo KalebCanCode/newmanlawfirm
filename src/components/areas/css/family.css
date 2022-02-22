@@ -37,7 +37,7 @@
 .area-infoF {
   display: flex;
   margin: 0 auto;
-  width: 79vh;
+  width: 70vw;
   background: white;
   border: 1rem solid silver;
   padding: 3rem;
@@ -102,5 +102,32 @@
   .bottomBoxF {
     height: 8vh;
     margin-top: 0px;
+  }
+
+  .area-contactF {
+    margin: 3% auto;
+    width: 80vw ;
+    height: 93vh;
+    background: white;
+    padding: 0rem 0rem;
+    box-sizing: border-box;
+
+  }
+}
+
+@media (max-width:680px){
+  .bottomBoxF {
+    height: 8vh;
+    margin-top: 0px;
+  }
+
+  .area-contactF {
+    margin: 3% auto;
+    width: 80vw ;
+    height: 63vh;
+    background: white;
+    padding: 0rem 0rem;
+    box-sizing: border-box;
+
   }
 }
