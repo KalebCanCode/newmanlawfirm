@@ -16,7 +16,7 @@ const form = useRef();
 
 function sendEmail(e){
   e.preventDefault();
-  emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+  emailjs.sendForm("service_fi2zdeb","template_v8jq7dq", e.target,  "user_ADeoA5MLtBRnLqTwOfIxi")
   .then((result) => {
     console.log(result.text);
   }, (error) => {
@@ -74,7 +74,7 @@ e.target.reset();
         id="message"
         placeholder="Enter Message Here..."
   required/>
-<input className="contact-button"type="submit" value="Send"/>
+<input className="contact-button"  type="submit" value="Send"/>
       </div>
       </div>
     </form>
